@@ -18,20 +18,24 @@ import android.content.Context;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-//import android.util.Log;
+import android.util.Log;
+import android.view.View;
+import android.widget.Spinner;
+import android.widget.Toast;
 
-//import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 public class MainActivity extends AppCompatActivity {
+
+    Spinner spinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-         // If the device is having android oreo we will create a notification channel
-
+        spinner = findViewById(R.id.spinnerTopics);
 
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
             NotificationManager mNotificationManager =
@@ -46,7 +50,24 @@ public class MainActivity extends AppCompatActivity {
             mNotificationManager.createNotificationChannel(mChannel);
         }
 
+        findViewById(R.id.buttonSubscribe).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
-        //MyNotificationManager.getInstance(this).displayNotification("Greetings", "Hello how are you?");
+                String topic = spinner.getSelectedItem().toString();
+                FirebaseMessaging.getInstance().subscribeToTopic(topic);
+                Toast.makeText(getApplicationContext(), "Topic Subscribed", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        findViewById(R.id.buttonUnsubscribe).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                String topic = spinner.getSelectedItem().toString();
+                FirebaseMessaging.getInstance().unsubscribeFromTopic(topic);
+                Toast.makeText(getApplicationContext(), "Topic Unsubscribed", Toast.LENGTH_LONG).show();
+            }
+        });
     }
 }
