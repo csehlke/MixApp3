@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "877946540577",
+    "firebase_url": "https://mixapp-d4d15.firebaseio.com",
+    "project_id": "mixapp-d4d15",
+    "storage_bucket": "mixapp-d4d15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877946540577:android:b698d17423ecaa4d",
+        "android_client_info": {
+          "package_name": "edu.gmu.patriothacks.year2018.android.mixapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877946540577-1t4oqfc5jcvtu0m7rbavcltc55mmq680.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.gmu.patriothacks.year2018.android.mixapp",
+            "certificate_hash": "15dbfab95f5a0bae4a0de51d99bdf1927e702041"
+          }
+        },
+        {
+          "client_id": "877946540577-dhfossl5ool3irtvo4utuhqd04uru573.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt9_-p1bchTtL0jol24GVF2dkSEw26BLE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877946540577-dhfossl5ool3irtvo4utuhqd04uru573.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
