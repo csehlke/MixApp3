@@ -36,10 +36,16 @@ We learned how to create an Android app from scratch, and how to use Google's Fi
 The APK to install on your Android device can be found [here](https://github.com/csehlke/MixApp3/blob/master/demo/MIX_App.apk).
 
 Once the app is installed you currently can choose beween to notification channels:
-![demo_picture1](https://github.com/csehlke/MixApp3/blob/master/demo/app1.png)
+<img src="https://github.com/csehlke/MixApp3/blob/master/demo/app1.png" height="300">
 
 To get notifications you need to subscribe to the channel. If you do not want to get any more notifications, you can also unsubscribe again.
-![demo_picture2](https://github.com/csehlke/MixApp3/blob/master/demo/app2.png)
+<img src="https://github.com/csehlke/MixApp3/blob/master/demo/app2.png" height="300">
 
 Once help is requested, devices that are subscribed to the channel get a notification that help is needed.
-![demo_notification](https://github.com/csehlke/MixApp3/blob/master/demo/notification.png)
+<img src="https://github.com/csehlke/MixApp3/blob/master/demo/notification.png" height="300">
+
+At the moment you need to add new messages using the Firebase web console, since there is no physical button to press available at the moment.
+<img src="https://github.com/csehlke/MixApp3/blob/master/demo/notification.png" height="600">
+
+## Credits
+[Firebase Cloud Messaging Tutorial for Android](https://www.simplifiedcoding.net/firebase-cloud-messaging-tutorial-android/)
