@@ -48,7 +48,8 @@ Once help is requested, devices that are subscribed to the channel get a notific
 <img src="https://github.com/csehlke/MixApp3/blob/master/demo/notification.png" height="300">
 
 At the moment you need to add new messages using the Firebase web console, since there is no physical button to press available at the moment.
-<img src="https://github.com/csehlke/MixApp3/blob/master/demo/Firebase.png" height="600">
+
+<img src="https://github.com/csehlke/MixApp3/blob/master/demo/Firebase.png" height="700">
 
 ## Credits
 [Firebase Cloud Messaging Tutorial for Android](https://www.simplifiedcoding.net/firebase-cloud-messaging-tutorial-android/)
