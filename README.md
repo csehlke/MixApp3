@@ -5,7 +5,7 @@ Android App for the MIX at George Mason University
 
 
 ## Inspiration
-The MIX at George Mason wants to eliminate the receptionist that literally just waits all day long for students that need help with their work and rather just send a instructor to the front desk only if he is needed. To accomplish this, every instructor installs an app on their phone that sends them a notifications if someone needs help at the front desk. Students can request help by for example pressing a button that is placed at the entrance.
+The MIX at George Mason wants to eliminate the receptionist that literally just waits all day long for students that need help with their work and rather just send an instructor to the front desk only if he is needed. To accomplish this, every instructor installs an app on their phone that sends them a notifications if someone needs help at the front desk. Students can request help by for example pressing a button that is placed at the entrance.
 
 ## What it does
 It is an Android app that sends notifications to all phones that are subscribed to the notification channel. 
