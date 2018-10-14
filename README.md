@@ -1,7 +1,7 @@
 # MixApp
 Android App for the MIX at George Mason University
 
-[Demo](#Demo)
+[Demo](#demo)
 
 
 ## Inspiration
